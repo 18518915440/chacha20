@@ -14,7 +14,8 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // Package chacha20 implements the ChaCha20 stream cipher.
-package chacha20 // import "gitlab.com/yawning/chacha20.git"
+//package chacha20 // import "gitlab.com/yawning/chacha20.git"
+package chacha20 // import "github.com:18518915440/chacha20.git"
 
 import (
 	"crypto/cipher"
@@ -22,9 +23,9 @@ import (
 	"errors"
 	"math"
 
-	"gitlab.com/yawning/chacha20.git/internal/api"
-	"gitlab.com/yawning/chacha20.git/internal/hardware"
-	"gitlab.com/yawning/chacha20.git/internal/ref"
+	"github.com/18518915440/chacha20.git/internal/api"
+	"github.com/18518915440/chacha20.git/internal/hardware"
+	"github.com/18518915440/chacha20.git/internal/ref"
 )
 
 const (
